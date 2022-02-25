@@ -3,7 +3,7 @@ import { useContext, useEffect } from 'react'
 import { api } from "../services/apiClient"
 import { withSSRAuth } from '../utils/withSSRAuth'
 import { setupAPIClient } from '../services/api'
-import { useCan } from '../hooks/useCan'
+
 import { Can } from '../components/Can'
 
 export default function Dashboard () {
